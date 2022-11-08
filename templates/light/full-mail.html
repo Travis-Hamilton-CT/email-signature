@@ -1,28 +1,100 @@
 <!-- @include head.inc.html -->
 
-<body class="body-with-bg">
-  <table class="background rbcc">
-    <tr>
-      <td>
-        <table class="main rbcc">
-          <tr class="rbcc">
-            <td class="main__welcome">
-              <b><!-- @echo welcome --></b>
-            </td>
-          </tr>
-          <tr class="rbcc">
-            <td class="main__content">
-              <!-- @echo introParagraph -->
-            </td>
-          </tr>
+<body>
+  <div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; row-gap: 20px;">
+    <div class="user-form" style="display: flex; align-items: center; flex-wrap: wrap;">
+      <img src='<!-- @echo avatar -->' width="124px" height="124px" style="border-radius: 50%;" />
+      <div class="user-info">
+        <div class="name">
+          <!-- @echo name -->
+        </div>
+        <div style="display: flex; align-items: center;">
+          <div class="position">
+            <!-- @echo position -->
+          </div>
+          <div
+            style="border-left: 1px solid #23262F; opacity: 10%; height: 22px; margin-left: 20px; margin-right: 20px;">
+          </div>
+          <img src="<!-- @echo linkedin-->" height="20px" />
+        </div>
+      </div>
+    </div>
+    <img src="<!-- @echo companyLogo -->" width="318" height="66" />
+  </div>
+  <div style="padding-top: 48px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+    <div style="display: flex; column-gap: 6px;">
+      <img src="<!-- @echo emailIcon -->" height="24px" />
+      <div style="font-weight: 400; font-size: 20px; color: #23262F; line-height: 140%;">
+        <!-- @echo companyEmail -->
+      </div>
+    </div>
 
-          <tr class="sp"><td class="sp__inner"></td></tr>
+    <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 28px;"></div>
 
-          <tr class="rbcc">
-            <!-- @include footer.inc.html -->
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+    <div style="display: flex; column-gap: 6px;">
+      <img src="<!-- @echo websiteIcon -->" height="24px" />
+      <div style="font-weight: 400; font-size: 20px; color: #23262F; line-height: 140%;">
+        <!-- @echo website -->
+      </div>
+    </div>
+
+    <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 28px;"></div>
+
+    <div style="display: flex; column-gap: 6px;">
+      <img src="<!-- @echo locationIcon -->" height="24px" />
+      <div style="font-weight: 400; font-size: 20px; color: #23262F; line-height: 140%;">
+        <!-- @echo location -->
+      </div>
+    </div>
+  </div>
+  <div style="padding-top: 48px; display: flex; justify-content: space-between; flex-wrap: wrap;  column-gap: 97px; row-gap: 20px;">
+    <div style="max-width: 846px;">
+      <div style="display: flex; color: #2199D6; font-weight: 600;">
+        <div style="font-size: 18px;">Never leave home without your copilot</div>
+        <div style="font-size: 11px;">TM</div>
+      </div>
+      <div
+        style="padding-top: 20px; font-weight: 400; font-size: 18px; line-height: 120%; color: #777E90; letter-spacing: 1px;">
+        Integrated technology to seamlessly connect travel suppliers, merchants, and consumers at scale across any
+        platform.
+      </div>
+      <div style="padding-top: 28px; display: flex; justify-content: space-between; flex-wrap: wrap; row-gap: 20px;">
+        <button
+          style="padding: 8px 14px; gap: 8px; height: 36px; border: 1px solid #2199D6; border-radius: 100px; font-weight: 600; font-size: 14px; line-height: 20px; color: #FFF; background: #2199D6; display: flex; align-items: center;">
+          <img src="<!-- @echo calendar -->" width="20px" height="20px" />
+          Schedule meeting
+        </button>
+        <button
+          style="padding: 8px 14px; gap: 8px; height: 36px; border: 1px solid #2199D6; border-radius: 100px; font-weight: 600; font-size: 14px; line-height: 20px; color: #2199D6; background: #FFF; display: flex; align-items: center;">
+          <img src="<!-- @echo plane -->" width="20px" height="20px" />
+          Try Integrated Travel Component
+        </button>
+        <div style="gap: 10px; display: flex; align-items: center;">
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo linkedin-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo facebook-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo instagram-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo twitter-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo tiktok-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo discord-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo github-->" height="24px" />
+          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
+          <img src="<!-- @echo dribble-->" height="24px" />
+        </div>
+      </div>
+    </div>
+    <div class="divider" style="border-left: 1px solid #23262F; opacity: 10%;"></div>
+    <div style="line-height: 140%; font-size: 20px;">
+      <div style="color: #008FDC; font-size: 16px; font-weight: 600;">Executive Secretary</div>
+      <div style="padding-top: 9px; color: #23262F; font-weight: 700;">Asia Mason</div>
+      <div style="font-weight: 400; letter-spacing: 1px;">amason@copilottravel.com </div>
+      <div style="font-weight: 400;">+1 678 508 0645</div>
+    </div>
+  </div>
 </body>

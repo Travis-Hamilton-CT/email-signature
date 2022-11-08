@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/danmindru/responsive-html-email-signature#readme",
   "scripts": {
-    "start": "./node_modules/.bin/gulp",
+    "start": ".\\node_modules\\.bin\\gulp",
     "once": "./node_modules/.bin/gulp run-pipeline",
     "deploy": "npm run test && cp -r dist demo && git push origin `git subtree split --prefix demo develop`:gh-pages --force",
     "generate:conf": "sh generate-conf.json.sh $THEME $MOBILE_PHONE_COUNTRY_CODE $MOBILE_PHONE_NUMBER $EMAIL_ADDRESS",
