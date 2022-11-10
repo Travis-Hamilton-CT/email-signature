@@ -1,100 +1,479 @@
 <!-- @include head.inc.html -->
 
-<body>
-  <div class="header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; row-gap: 20px;">
-    <div class="user-form" style="display: flex; align-items: center; flex-wrap: wrap;">
-      <img src='<!-- @echo avatar -->' width="124px" height="124px" style="border-radius: 50%;" />
-      <div class="user-info">
-        <div class="name">
-          <!-- @echo name -->
-        </div>
-        <div style="display: flex; align-items: center;">
-          <div class="position">
-            <!-- @echo position -->
-          </div>
-          <div
-            style="border-left: 1px solid #23262F; opacity: 10%; height: 22px; margin-left: 20px; margin-right: 20px;">
-          </div>
-          <img src="<!-- @echo linkedin-->" height="20px" />
-        </div>
-      </div>
-    </div>
-    <img src="<!-- @echo companyLogo -->" width="318" height="66" />
-  </div>
-  <div style="padding-top: 48px; display: flex; justify-content: space-between; flex-wrap: wrap;">
-    <div style="display: flex; column-gap: 6px;">
-      <img src="<!-- @echo emailIcon -->" height="24px" />
-      <div style="font-weight: 400; font-size: 20px; color: #23262F; line-height: 140%;">
-        <!-- @echo companyEmail -->
-      </div>
-    </div>
-
-    <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 28px;"></div>
-
-    <div style="display: flex; column-gap: 6px;">
-      <img src="<!-- @echo websiteIcon -->" height="24px" />
-      <div style="font-weight: 400; font-size: 20px; color: #23262F; line-height: 140%;">
-        <!-- @echo website -->
-      </div>
-    </div>
-
-    <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 28px;"></div>
-
-    <div style="display: flex; column-gap: 6px;">
-      <img src="<!-- @echo locationIcon -->" height="24px" />
-      <div style="font-weight: 400; font-size: 20px; color: #23262F; line-height: 140%;">
-        <!-- @echo location -->
-      </div>
-    </div>
-  </div>
-  <div style="padding-top: 48px; display: flex; justify-content: space-between; flex-wrap: wrap;  column-gap: 97px; row-gap: 20px;">
-    <div style="max-width: 846px;">
-      <div style="display: flex; color: #2199D6; font-weight: 600;">
-        <div style="font-size: 18px;">Never leave home without your copilot</div>
-        <div style="font-size: 11px;">TM</div>
-      </div>
-      <div
-        style="padding-top: 20px; font-weight: 400; font-size: 18px; line-height: 120%; color: #777E90; letter-spacing: 1px;">
-        Integrated technology to seamlessly connect travel suppliers, merchants, and consumers at scale across any
-        platform.
-      </div>
-      <div style="padding-top: 28px; display: flex; justify-content: space-between; flex-wrap: wrap; row-gap: 20px;">
-        <button
-          style="padding: 8px 14px; gap: 8px; height: 36px; border: 1px solid #2199D6; border-radius: 100px; font-weight: 600; font-size: 14px; line-height: 20px; color: #FFF; background: #2199D6; display: flex; align-items: center;">
-          <img src="<!-- @echo calendar -->" width="20px" height="20px" />
-          Schedule meeting
-        </button>
-        <button
-          style="padding: 8px 14px; gap: 8px; height: 36px; border: 1px solid #2199D6; border-radius: 100px; font-weight: 600; font-size: 14px; line-height: 20px; color: #2199D6; background: #FFF; display: flex; align-items: center;">
-          <img src="<!-- @echo plane -->" width="20px" height="20px" />
-          Try Integrated Travel Component
-        </button>
-        <div style="gap: 10px; display: flex; align-items: center;">
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo linkedin-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo facebook-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo instagram-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo twitter-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo tiktok-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo discord-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo github-->" height="24px" />
-          <div class="vertical-line" style="border-left: 1px solid #23262F; opacity: 10%; height: 22px;"></div>
-          <img src="<!-- @echo dribble-->" height="24px" />
-        </div>
-      </div>
-    </div>
-    <div class="divider" style="border-left: 1px solid #23262F; opacity: 10%;"></div>
-    <div style="line-height: 140%; font-size: 20px;">
-      <div style="color: #008FDC; font-size: 16px; font-weight: 600;">Executive Secretary</div>
-      <div style="padding-top: 9px; color: #23262F; font-weight: 700;">Asia Mason</div>
-      <div style="font-weight: 400; letter-spacing: 1px;">amason@copilottravel.com </div>
-      <div style="font-weight: 400;">+1 678 508 0645</div>
-    </div>
-  </div>
+<body mso-line-height-rule: exactly;>
+  <table style="width: 100%;">
+    <tbody>
+      <tr>
+        <td style="padding: 48px 40px 0px">
+          <table align="left">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="avatar" align="left">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="https://cdn.discordapp.com/attachments/1016868867810795651/1039902277630165173/image.png"
+                            width="124" height="124" border="0" alt=""
+                            style="width:124px;min-width:124px;max-width:124px;height:124px;min-height:124px;max-height:124px;">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="profile" align="right" style="padding: 8px 0px 8px 30px;">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table style="width: 100%;">
+                            <tbody>
+                              <tr>
+                                <td style="padding:0 0 9px;vertical-align:center;">
+                                  <table
+                                    style="color:#000001;font-size:14.67px;font-family:Arial;font-weight:400;font-style:normal;text-align:left;line-height:60px; width: 100%;">
+                                    <tbody>
+                                      <tr style="font-size:40px;">
+                                        <td style="font-family:Arial;">
+                                          Gary&nbsp;Somerhalder<span
+                                            style="font-family:remialcxesans;font-size:1px;color:#FFFFFF;line-height:1px;">​</span><br>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table style="line-height:normal; width: 100%;">
+                            <tbody>
+                              <tr>
+                                <td align="center" style="vertical-align:middle;">
+                                  <table style="width: 100%;">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center"
+                                          style="padding:0 20px 0 0;border-top:none;border-right:solid 1px #E9E9E9;border-bottom:none;border-left:none;vertical-align:middle;">
+                                          <table
+                                            style="color:#008FDC;font-size:14.67px;font-family:Arial;font-weight:400;font-style:normal;text-align:left;line-height:39px; width: 100%;">
+                                            <tbody>
+                                              <tr style="font-size:26px;">
+                                                <td style="font-family:Arial;">
+                                                  Chief&nbsp;Executive&nbsp;Officer<br>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td align="right" style="padding:0 0 0 20px;vertical-align:middle;">
+                                  <img
+                                    src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510774516818000/image.png"
+                                    width="20" height="20" border="0" alt=""
+                                    style="width:20px;min-width:20px;max-width:20px;height:20px;min-height:20px;max-height:20px;">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="right" style="padding-top: 29px;">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039509533585854494/image.png"
+                    width="318" border="0" alt="" style="width:318px;min-width:318px;max-width:318px;">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 48px 40px">
+          <table style="width:100%;">
+            <tbody>
+              <tr>
+                <td align="left" style="vertical-align:top;">
+                  <table style="width: 100%;">
+                    <tbody>
+                      <tr>
+                        <td align="left" style="padding:0;vertical-align:top;">
+                          <table class="contact-info-width" align="left" style="width: 53%;">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <table class="contact-info-subwidth" align="left" style="font-size:0;line-height:normal;width: 51%;">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:0;vertical-align:top;width: 24px;"><img
+                                            src="https://cdn.discordapp.com/attachments/1016868867810795651/1039513152393592832/image.png"
+                                            width="24" border="0" alt=""
+                                            style="width:24px;min-width:24px;max-width:24px;font-size:0;"></td>
+                                        <td style="padding:0 0 0 6px;vertical-align:top;">
+                                          <table
+                                            style="color:#23262F;font-size:14.67px;font-family:Calibri,Arial,sans-serif;font-weight:400;font-style:normal;text-align:left;line-height:28px;">
+                                            <tbody>
+                                              <tr style="font-size:20px;">
+                                                <td style="font-family:Calibri,Arial,sans-serif;">gary@copilottravel.com<span
+                                                    style="font-family:remialcxesans;font-size:1px;color:#FFFFFF;line-height:1px;">​</span><br>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="contact-info-subwidth" align="right" style="font-size:0;line-height:normal;width: 49%; text-align:center; border-left: 1px solid #E9E9E9;border-right: 1px solid #E9E9E9;">
+                                    <tbody>
+                                      <tr>
+                                        <td class="website-logo" align="left" style="padding-left:4rem;vertical-align:top;width: 24px;"><img
+                                            src="https://cdn.discordapp.com/attachments/1016868867810795651/1039513198405107752/image.png"
+                                            width="24" border="0" alt=""
+                                            style="width:24px;min-width:24px;max-width:24px;font-size:0;"></td>
+                                        <td align="left" style="padding:0 0 0 6px;vertical-align:top;">
+                                          <table
+                                            style="color:#23262F;font-size:14.67px;font-family:Calibri,Arial,sans-serif;font-weight:400;font-style:normal;text-align:left;line-height:28px;">
+                                            <tbody>
+                                              <tr style="font-size:20px;">
+                                                <td style="font-family:Calibri,Arial,sans-serif;">copilottravel.com <span
+                                                    style="font-family:remialcxesans;font-size:1px;color:#FFFFFF;line-height:1px;">​</span><br>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table class="contact-info-width" align="right" style="font-size:0;line-height:normal;">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="padding:0;vertical-align:top !important;width: 24px;"><img
+                                    src="https://cdn.discordapp.com/attachments/1016868867810795651/1039513240176164864/image.png"
+                                    width="24" border="0" alt=""
+                                    style="width:24px;min-width:24px;max-width:24px;font-size:0;"></td>
+                                <td align="left" style="padding:0 0 0 6px;vertical-align:top;">
+                                  <table
+                                    style="color:#23262F;font-size:14.67px;font-family:Calibri,Arial,sans-serif;font-weight:400;font-style:normal;text-align:left;line-height:28px;">
+                                    <tbody>
+                                      <tr style="font-size:20px;">
+                                        <td style="font-family:Calibri,Arial,sans-serif;">99 East Main Street, Suite 200, Franklin, TN 37064 USA<span
+                                            style="font-family:remialcxesans;font-size:1px;color:#FFFFFF;line-height:1px;">​</span><br>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0 40px;">
+          <table align="left" style="width: 70%; border-right: 1px solid #E9E9E9;padding-right: 10%;">
+            <tbody>
+              <tr>
+                <td>
+                  <table>
+                    <tbody style="color: #2199D6;">
+                      <tr>
+                        <td style="font-size: 18px;">
+                          Never leave home without your copilot<span style="font-size: 11px;">TM</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 20px 0 28px; font-size:18px; color: #23262F;">Integrated technology to seamlessly connect travel suppliers, merchants, and consumers at scale across any platform.</td>
+              </tr>
+              <tr>
+                <td>
+                  <table align="left">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table align="left">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <a style="border-radius: 100px; background-color: #008FDC; padding: 8px 14px; text-decoration: none;" href="#">
+                                    <img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039397386876883004/image.png" width="20px" alt="" />
+                                    <span style="color: #fff;">Schedule meeting</span>
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table align="right">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <a style="border: 1px solid #008FDC; border-radius: 100px; background-color: #fff; padding: 8px 14px; text-decoration: none;" href="#">
+                                    <img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039396206813663272/image.png" width="20px" alt="" />
+                                    <span style="color: #008FDC;">Try Integrated Travel Component</span>
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table align="right">
+                    <tbody>
+                      <tr>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510774516818000/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510825456631838/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510833371287552/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510858784587887/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510971275804753/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510711367385158/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510971586203648/image.png" width="22px"></a>
+                        </td>
+                        <td style="height: 36px;border-left: 1px solid #E9E9E9;">
+                          <a style="padding: 0 10px;"><img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039510971913351238/image.png" width="22px"></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="right" style="width: 30%;">
+            <tbody>
+              <tr>
+                <td style="padding-left: 23%; color: #008FDC; font-size: 16px; padding-bottom: 9px;">
+                  Executive Secretary
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-left: 23%; color: #23262F; font-size: 20px; font-weight: 700;">Asia Mason</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 23%; color: #23262F; font-size: 20px;">amason@copilottravel.com</td>
+              </tr>
+              <tr>
+                <td style="padding-left: 23%; color: #23262F; font-size: 20px;">+1 678 508 0645</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 48px;">
+          <div style="border-bottom: 1px solid #E9E9E9;"></div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0 40px;">
+          <table align="left">
+            <tr>
+              <td>
+                <table align="left">
+                  <tr>
+                    <td style="padding-right: 16px;">
+                      <img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039511533190922250/image.png" alt="" width="32px" >
+                    </td>
+                    <td>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="color: #008FDC; font-size: 16px; font-weight: 600; line-height: 140%;">Gary’s Local Timezone</td>
+                          </tr>
+                          <tr>
+                            <td style="color: #23262F; font-size: 20px; font-weight: 400; line-height: 140%;">Nashville, TN (USA)  | CST | GMT-6</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table align="right">
+                  <tr>
+                    <td style="padding-right: 16px;">
+                      <img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039511586441789450/image.png" alt="" width="32px" >
+                    </td>
+                    <td>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="color: #008FDC; font-size: 16px; font-weight: 600; line-height: 140%;">Gary’s Local Airport</td>
+                          </tr>
+                          <tr>
+                            <td style="color: #23262F; font-size: 20px; font-weight: 400; line-height: 140%;">BNA (Nashville International Airport)</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table align="right">
+            <tr>
+              <td style="padding-right: 16px;">
+                <img src="https://cdn.discordapp.com/attachments/1016868867810795651/1039511627910893639/image.png" alt="" width="32px" >
+              </td>
+              <td>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td style="color: #008FDC; font-size: 16px; font-weight: 600; line-height: 140%;">Gary’s Local Weather</td>
+                    </tr>
+                    <tr>
+                      <td style="color: #23262F; font-size: 20px; font-weight: 400; line-height: 140%;">Nashville, TN (USA)  |  67ºF  | Cloudy</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 48px 40px 0px;">
+          <table align="left">
+            <tbody>
+              <tr>
+                <td style="font-style: normal; font-weight: 600; font-size: 16px;line-height: 140%;color: #008FDC;padding-bottom: 9px;">Mobile</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;line-height: 140%;color: #23262F;">+1 615 495 6647</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left" style="padding: 20px 3.43%;">
+            <tbody>
+              <tr>
+                <td style="border-left: 1px solid #E9E9E9; height: 20px;"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left">
+            <tbody>
+              <tr>
+                <td style="font-style: normal; font-weight: 600; font-size: 16px;line-height: 140%;color: #008FDC;padding-bottom: 9px;">Direct</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;line-height: 140%;color: #23262F;">+1 615 495 6647</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left" style="padding: 20px 3.43%;">
+            <tbody>
+              <tr>
+                <td style="border-left: 1px solid #E9E9E9; height: 20px;"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left">
+            <tbody>
+              <tr>
+                <td style="font-style: normal; font-weight: 600; font-size: 16px;line-height: 140%;color: #008FDC;padding-bottom: 9px;">Main International </td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;line-height: 140%;color: #23262F;">+1 615 495 6647</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left" style="padding: 20px 3.43%;">
+            <tbody>
+              <tr>
+                <td style="border-left: 1px solid #E9E9E9; height: 20px;"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left">
+            <tbody>
+              <tr>
+                <td style="font-style: normal; font-weight: 600; font-size: 16px;line-height: 140%;color: #008FDC;padding-bottom: 9px;">Main Toll-Free</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;line-height: 140%;color: #23262F;">+1 615 495 6647</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left" style="padding: 20px 3.43%;">
+            <tbody>
+              <tr>
+                <td style="border-left: 1px solid #E9E9E9; height: 20px;"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left">
+            <tbody>
+              <tr>
+                <td style="font-style: normal; font-weight: 600; font-size: 16px;line-height: 140%;color: #008FDC;padding-bottom: 9px;">Support Toll-Free</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;line-height: 140%;color: #23262F;">+1 615 495 6647</td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left" style="padding: 20px 3.43%;">
+            <tbody>
+              <tr>
+                <td style="border-left: 1px solid #E9E9E9; height: 20px;"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="left">
+            <tbody>
+              <tr>
+                <td style="font-style: normal; font-weight: 600; font-size: 16px;line-height: 140%;color: #008FDC;padding-bottom: 9px;">Support International</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;line-height: 140%;color: #23262F;">+1 615 495 6647</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </body>

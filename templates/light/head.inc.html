@@ -5,81 +5,35 @@
 <head>
   <meta name="viewport" content="width=device-width" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Inject stylesheets after they are processed with LESS, SASS or postcss. -->
   <!-- @echo stylesheets -->
 
   <style type="text/css">
-    /* Ideally, this would be part of a linked CSS file. @see https://github.com/fadeit/responsive-html-email-signature/issues/15 */
 
-    /*
-   * ================
-   * 4. Basic responsive stuff.
-   * ================
-   */
-
-    body {
-      font-family: 'Plus Jakarta Sans';
-      padding: 48px 40px;
-    }
-
-    .name {
-      font-size: 40px;
-      font-weight: 500;
-      line-height: 150%;
-      color: #23262F;
-    }
-
-    .user-info {
-      padding-left: 30px;
-    }
-
-    .position {
-      color: #008FDC;
-      font-size: 26px;
-      line-height: 150%;
-      font-weight: 400;
-    }
-/* 
-    @media only screen and (max-width:480px) {
-      .user-info {
-        padding: 20px 0px !important;
+    @media only screen and (max-width:576px) {
+      .profile {
+        padding: 0px !important;
+        text-align: center;
       }
-
-      .header {
-        flex-direction: column !important;
+      .avatar {
+        width: 100% !important;
+        text-align: center;
       }
-
-      .user-form {
-        flex-direction: column;
-      }
-
-      .vertical-line {
-        display: none;
-      }
-    } */
-    @media only screen and (max-width:560px) {
-      .user-info {
-        padding: 20px 0px !important;
-      }
-
-      .header {
-        flex-direction: column !important;
-      }
-
-      .user-form {
-        flex-direction: column;
-      }
-
-      .vertical-line {
-        display: none;
+      .contact-info-subwidth {
+        width: 100% !important;
       }
     }
-    @media only screen and (max-width:1040px) {
-      .divider {
-        display: none;
+
+    @media only screen and (max-width:1100px) {
+      .contact-info-width {
+        width: 100% !important;
+      }
+      .website-logo {
+        padding: 0px !important;
+      }
+      .contact-info-subwidth {
+        border: none !important;
       }
     }
   </style>

@@ -1,5 +1,6 @@
 {
-  "name": "Gary Somerhalder",
+  "firstName": "Gary",
+  "lastName": "Somerhalder",
   "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1KmaPoNIZ6G64ttTikwxXHkEPrb-44QlLsQ&usqp=CAU",
   "position": "Chief Executive Officer",
   "companyEmail": "gary@copilottravel.com",
@@ -22,5 +23,15 @@
   "calendar":     "https://cdn.discordapp.com/attachments/1016868867810795651/1039397386876883004/image.png",
   "airport":      "https://cdn.discordapp.com/attachments/1016868867810795651/1039511586441789450/image.png",
   "clock":        "https://cdn.discordapp.com/attachments/1016868867810795651/1039511533190922250/image.png",
-  "weather":      "https://cdn.discordapp.com/attachments/1016868867810795651/1039511627910893639/image.png"
+  "weather":      "https://cdn.discordapp.com/attachments/1016868867810795651/1039511627910893639/image.png",
+  "localTimezone": "Nashville, TN (USA)  | CST | GMT-6",
+  "localAirport": "BNA (Nashville International Airport)",
+  "localWeather": "Nashville, TN (USA)  |  67ºF  | Cloudy",
+  "mobile": "+1 615 495 6647",
+  "direct": "+1 615 495 6647",
+  "mainInternational": "+1 615 495 6647",
+  "mainTollFree": "+1 615 495 6647",
+  "supportTollFree": "+1 615 495 6647",
+  "supportInternational": "+1 615 495 6647",
+  "boardImage" : "https://cdn.discordapp.com/attachments/1016868867810795651/1039533006957854800/image.png"
 }
